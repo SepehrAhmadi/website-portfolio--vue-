@@ -1,0 +1,547 @@
+@include media-xl {
+  //Bannner
+  .banner {
+    &-title {
+      font-size: 11rem;
+    }
+
+    &-bottem-line {
+      transform: translateY(-110px);
+
+      .forBy {
+        width: 100px;
+        font-size: 4rem;
+        line-height: 70px;
+      }
+    }
+
+    &-slogan {
+      transform: translate(310px, -135px);
+    }
+  }
+
+  // Service
+  .service-banner {
+    .text-container {
+      font-size: 7rem;
+
+      .first-word {
+        transform: translateY(-35px);
+      }
+
+      .second-word {
+        transform: translateY(35px);
+      }
+    }
+  }
+}
+
+@include media-lg {
+  //Bannner
+  .banner {
+    &-title {
+      font-size: 11rem;
+    }
+
+    &-bottem-line {
+      transform: translateY(-90px);
+
+      .forBy {
+        width: 100px;
+        font-size: 4rem;
+        line-height: 70px;
+      }
+    }
+
+    &-slogan {
+      transform: translate(310px, -135px);
+    }
+  }
+
+  // Service
+  .service-banner {
+    .text-container {
+      font-size: 6rem;
+
+      .first-word {
+        transform: translateY(-40px);
+      }
+
+      .second-word {
+        transform: translateY(40px);
+      }
+    }
+  }
+}
+
+@include media-md {
+  //Bannner
+  .banner {
+    &-title {
+      font-size: 9rem;
+    }
+
+    &-bottem-line {
+      transform: translateY(-75px);
+
+      .forBy {
+        width: 80px;
+        font-size: 3rem;
+        line-height: 55px;
+      }
+    }
+
+    &-slogan {
+      transform: translate(240px, -112px);
+    }
+  }
+
+  // Service
+  .service-banner {
+    margin-block: 70px;
+
+    .text-container {
+      font-size: 4rem;
+
+      .first-word {
+        transform: translateY(-25px);
+      }
+
+      .second-word {
+        transform: translateY(25px);
+      }
+    }
+  }
+
+  // Worlflow
+  .workflow-background-title {
+    font-size: 8rem;
+  }
+  .workflow-title {
+    font-size: 5rem;
+    text-align: center;
+    transform: translate(60px, -95px);
+  }
+
+  .worlflow-container {
+    box-sizing: content-box;
+    width: 90vw;
+
+    .worlflow {
+      &-item {
+        border-bottom: 2px solid white;
+        transform: rotate(10deg);
+
+        &:last-child {
+          border: none;
+        }
+
+        &-text {
+          width: 60%;
+          transform: rotate(-10deg);
+
+          p {
+            text-align: justify;
+            text-justify: newspaper;
+          }
+        }
+      }
+    }
+  }
+
+  // Comment
+  .comment-title {
+    &-text {
+      font-size: 6rem;
+      line-height: 120px;
+    }
+
+    &-question-mark {
+      font-size: 15rem;
+    }
+
+    &-info {
+      text-align: end;
+      transform: translate(-15px, -65px);
+    }
+  }
+
+  // Team
+  .team {
+    column-gap: 30px;
+
+    &-member-1 {
+      .line-1 {
+        font-size: 6rem;
+        line-height: 80px;
+      }
+
+      .line-2 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  // Article
+  .article-title {
+    font-size: 5.5rem;
+    line-height: 80px;
+  }
+}
+
+@include media-sm {
+  //Bannner
+  .banner {
+    &-title {
+      font-size: 7rem;
+    }
+
+    &-bottem-line {
+      transform: translateY(-55px);
+
+      .forBy {
+        width: 50px;
+        font-size: 2.3rem;
+        line-height: 45px;
+      }
+    }
+
+    &-slogan {
+      transform: translate(180px, -85px);
+    }
+  }
+
+  // Service
+  .service-banner {
+    height: 50vh;
+    margin-block: 50px;
+
+    .text-container {
+      font-size: 2.5rem;
+
+      .first-word {
+        transform: translateY(-20px);
+      }
+
+      .second-word {
+        transform: translateY(20px);
+      }
+    }
+  }
+
+  // Worlflow
+  .workflow-background-title {
+    font-size: 9.5rem;
+    letter-spacing: 70px;
+    transform: translateX(-60px);
+  }
+  .workflow-title {
+    font-size: 4.5rem;
+    text-align: center;
+    transform: translate(40px, -110px);
+  }
+
+  .worlflow-container {
+    margin-bottom: 6rem;
+    box-sizing: content-box;
+    width: 100vw;
+
+    .worlflow {
+      &-item {
+        border-bottom: 2px solid white;
+        transform: rotate(0deg);
+
+        &:last-child {
+          border: none;
+        }
+
+        &-text {
+          margin-left: 20px;
+          width: 90%;
+          transform: rotate(0deg);
+
+          p {
+            text-align: justify;
+            text-justify: newspaper;
+          }
+
+          div {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  // Grid Gallery
+  .grid-gallery-title {
+    padding-left: 8.5rem;
+  }
+
+  // Comment
+  .comment-title {
+    &-text {
+      font-size: 4rem;
+      line-height: 60px;
+    }
+
+    &-question-mark {
+      font-size: 11rem;
+    }
+
+    &-info {
+      text-align: end;
+      transform: translate(-15px, -55px);
+    }
+  }
+
+  // Team
+  .team {
+    column-gap: 50px;
+
+    &-member-1 {
+      .line-1 {
+        font-size: 5rem;
+        line-height: 75px;
+      }
+
+      .line-2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  // Article
+  .article-title {
+    font-size: 4.5rem;
+    line-height: 75px;
+  }
+
+  // Social
+  .social-container{
+    margin-top: 7rem;
+    margin-bottom: 12rem;
+  }
+  .social {
+    position: relative;
+    box-sizing: content-box;
+    width: 100vw;
+
+    &-line-1 {
+      position: absolute;
+      background-color: #ef6c00;
+      transform: rotate(0deg);
+      left: 0;
+    }
+
+    &-line-2 {
+      position: absolute;
+      background-color: #ef6c00;
+      transform: rotate(0deg);
+      top: 80px;
+      left: -25px;
+    }
+  }
+}
+
+@include media-xs {
+  //Bannner
+  .banner {
+    &-title {
+      font-size: 5rem;
+    }
+
+    &-bottem-line {
+      transform: translateY(-40px);
+
+      .forBy {
+        width: 40px;
+        font-size: 1.7rem;
+        line-height: 30px;
+      }
+    }
+
+    &-slogan {
+      transform: translate(95px, -55px);
+    }
+  }
+
+  // Service
+  .service-banner {
+    height: 30vh;
+    margin-block: 30px;
+
+    .text-container {
+      font-size: 1.5rem;
+
+      .first-word {
+        transform: translateY(-10px);
+      }
+
+      .second-word {
+        transform: translateY(10px);
+      }
+    }
+  }
+
+  //   Worlflow
+  .workflow-background-title {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 30px;
+    transform: translateX(-35px);
+  }
+  .workflow-title {
+    font-size: 3rem;
+    text-align: center;
+    transform: translate(15px, -60px);
+  }
+
+  .worlflow-container {
+    box-sizing: content-box;
+    width: 100vw;
+
+    .worlflow {
+      &-item {
+        border-bottom: 2px solid white;
+        transform: rotate(0deg);
+
+        &:last-child {
+          border: none;
+        }
+
+        &-text {
+          margin-left: 50px;
+          width: 100%;
+          transform: rotate(0deg);
+
+          p {
+            text-align: justify;
+            text-justify: newspaper;
+          }
+
+          div {
+            margin-right: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  // Grid Gallery
+  .grid-gallery-title {
+    padding-left: 2.5rem;
+  }
+
+  // Comment
+  .comment-title {
+    &-text {
+      font-size: 3.5rem;
+      line-height: 50px;
+    }
+
+    &-question-mark {
+      font-size: 9.5rem;
+    }
+
+    &-info {
+      text-align: end;
+      transform: translate(-15px, -35px);
+    }
+  }
+
+  // Team
+  .team {
+    column-gap: 10px;
+
+    &-member-1 {
+      .line-1 {
+        font-size: 3.5rem;
+        line-height: 50px;
+      }
+
+      .line-2 {
+        font-size: 0.9rem;
+      }
+    }
+
+    &-member-2 {
+      grid-column: 3/4;
+      grid-row: 1/2;
+
+      .img {
+        border-radius: 40px;
+        border-bottom-right-radius: 0px;
+      }
+    }
+
+    &-member-3 {
+      grid-column: 1/2;
+      grid-row: 2/4;
+
+      .img {
+        border-radius: 40px;
+      }
+    }
+
+    &-member-4 {
+      grid-column: 2/3;
+      grid-row: 2/3;
+
+      .img {
+        border-radius: 50%;
+      }
+    }
+
+    &-member-5 {
+      grid-column: 3/4;
+      grid-row: 2/3;
+
+      .img {
+        border-radius: 40px;
+        border-top-left-radius: 0px;
+      }
+    }
+
+    &-member-6 {
+      grid-column: 2/4;
+      grid-row: 3/4;
+
+      .img {
+        border-radius: 40px;
+      }
+    }
+  }
+
+  // Article
+  .article-title {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+
+  // Social
+  .social-container{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+  .social {
+    position: relative;
+    box-sizing: content-box;
+    width: 100vw;
+
+    &-line-1 {
+      position: absolute;
+      background-color: #ef6c00;
+      transform: rotate(0deg);
+      left: -10px;
+    }
+
+    &-line-2 {
+      position: absolute;
+      background-color: #ef6c00;
+      transform: rotate(0deg);
+      top: 75px;
+      left: -25px;
+    }
+  }
+}
